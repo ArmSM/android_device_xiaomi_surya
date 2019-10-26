@@ -100,7 +100,8 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.device.rc
+    init.device.rc \
+    init.safailnet.rc
 
 # IPACM
 PRODUCT_PACKAGES += \

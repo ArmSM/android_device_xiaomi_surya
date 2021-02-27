@@ -622,4 +622,7 @@
         <item>com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService</item>
         <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
     </string-array>
+
+    <!-- Set the default dialer package name. -->
+    <string name="config_defaultDialer" translatable="false">com.android.dialer</string>
 </resources>

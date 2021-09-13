@@ -125,6 +125,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS += \
     AR=llvm-ar AS=llvm-as NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip
 
 TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_USE_LATEST_CLANG := true
 TARGET_KERNEL_CONFIG := surya_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/surya
 
